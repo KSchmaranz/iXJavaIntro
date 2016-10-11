@@ -14,6 +14,7 @@ public class StackCalculatorShell {
 
     private static boolean readAndProcessNextInput(BufferedReader bufferedReader)
             throws IOException {
+        printStack();
         System.out.printf(" > ");
         String nextLine = bufferedReader.readLine();
         if (nextLine.equals("exit"))
@@ -23,5 +24,12 @@ public class StackCalculatorShell {
         else
             System.out.println(calculator.execute(nextLine));
         return true;
+    }
+
+    private static void printStack() {
+        System.out.println("----------");
+        for(int idx = 0; idx < calculator.getSize(); ++idx)
+            System.out.println(calculator.bottom(idx));
+        System.out.println("----------");
     }
 }
