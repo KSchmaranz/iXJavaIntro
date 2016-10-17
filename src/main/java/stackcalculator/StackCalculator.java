@@ -1,3 +1,5 @@
+package stackcalculator;
+
 public class StackCalculator {
     public static void main(String[] args) {
         CalculatorImpl calc = new CalculatorImpl(16);

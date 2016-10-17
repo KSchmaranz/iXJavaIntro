@@ -1,3 +1,4 @@
+package stackcalculator;
 
 public class CalculatorImpl {
     private double[] stack;

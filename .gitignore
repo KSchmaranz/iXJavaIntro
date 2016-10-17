@@ -19,7 +19,7 @@ hs_err_pid*
 
 # intelliJ-related stuff
 *.idea
-# *.iml
+*.iml
 *.iws
 *.ipr
 **/classes/
@@ -45,26 +45,3 @@ hs_err_pid*
 
 # android studio
 **/local.properties
-
-# test-related stuff
-**/proNovaDataAccessTestDb
-derby.log
-
-# local files
-*.orig
-*.log
-*.dll
-.DS_Store
-tmp
-jvm/pronova-processing/nre-trace-channels.xml
-jvm/pronova-processing/nre-trace-states.xml
-processor.properties
-jvm/pronova-storage-vertical-config.json
-jvm/pronova-processing/processor.properties
-html5/state-visualizer/state-visualizer-web/web/js/
-
-# exceptions for packaging
-!jvm/pronova-processing/nre-streaming-wrapper/package/*
-!jvm/pronova-processing/nre-streaming-wrapper/lib/sqljdbc4.jar
-!jvm/pronova-processing/rig-state-visualizer/package/*
-!jvm/pronova-processing/rig-state-visualizer/lib/sqljdbc4.jar
