@@ -1,3 +1,4 @@
+package stackcalculator;
 
 public class CalculatorImpl implements Comparable<CalculatorImpl> {
     private double[] stack;
