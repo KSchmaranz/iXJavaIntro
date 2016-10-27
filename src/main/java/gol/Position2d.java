@@ -10,6 +10,14 @@ public class Position2d implements Position{
         this.y = y;
     }
 
+    public int getX() {
+        return x;
+    }
+
+    public int getY() {
+        return y;
+    }
+
     public double distanceFrom(Position other) {
         if (!(other instanceof Position2d))
             throw new IllegalArgumentException("Can only use Position2d");
